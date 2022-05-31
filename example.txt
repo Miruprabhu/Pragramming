@@ -1,4 +1,38 @@
-fffff
-fff
-fff
-ff
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<title>Grid System</title>
+      
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+      #deviceSize{
+        margin-bottom: 30px;
+    
+	  }
+	  .bluebox{
+		background-color: #2fc5b8;
+		height: 200px;
+	  }
+	  .greenbox{
+		background-color: #8deb46;
+		height: 200px;
+	  }
+	  
+	</style>
+  </head>
+  <body>
+<div class="container-fluid">
+    
+<div id="deviceSize "> Device Size: </div>
+<div class="bluebox col-md-3 col-sm-6 col-xs-6"></div>
+<div class="greenbox col-md-4 col-sm-6 col-xs-6" ></div>
+    
+</div>
+      
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+</script>
+
+   
+
+  </body>
+</html>
